@@ -40,7 +40,7 @@ function Parcours() {
                 <Typography id="parcours-title" variant="h1" sx={{ fontSize: { xs: "1.75rem", sm: "2.125rem", md: "2.5rem" }, color: "brand.deepGreen" }}>
                   Qui se cache derrière le design ?
                 </Typography>
-                <Typography variant="h3" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" } }}>
+                <Typography component="p" variant="h3" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" } }}>
                   Moi, c'est Marion.
                 </Typography>
               </Stack>
@@ -171,12 +171,11 @@ function Parcours() {
 
             {/* En dehors du travail */}
             <Stack spacing={4}>
-              <Typography variant="h2" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" }, color: "brand.deepGreen" }}>
-                En dehors du travail
-              </Typography>
-
               <Stack direction="row" spacing={4} useFlexGap sx={{ flexWrap: "wrap", alignItems: "center" }}>
                 <Stack spacing={2} sx={{ flex: "1 1 320px" }}>
+                  <Typography variant="h2" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" }, color: "brand.deepGreen" }}>
+                    En dehors du travail
+                  </Typography>
                   <Typography>
                     Ne déplaise à certain·es, j'adore le matcha : un rituel quotidien, matin et
                     parfois après-midi, en latte ou en cérémonie. Lors d'un voyage

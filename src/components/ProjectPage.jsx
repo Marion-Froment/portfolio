@@ -96,6 +96,7 @@ function ProjectPage({ idPrefix, breadcrumbLabel, chipLabel, title, intro, meta,
             <Tabs
               value={activeTab}
               onChange={(event, newValue) => setActiveTab(newValue)}
+              aria-label="Sections du projet"
               indicatorColor="primary"
               textColor="inherit"
               variant="scrollable"

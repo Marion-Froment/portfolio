@@ -124,6 +124,7 @@ function UiEtDeveloppement() {
           target="_blank"
           rel="noopener noreferrer"
           endIcon={<OpenInNewIcon fontSize="small" />}
+          aria-label="Voir le site Webflow (ouvre un nouvel onglet)"
           sx={{ alignSelf: "flex-start" }}
         >
           Voir le site Webflow

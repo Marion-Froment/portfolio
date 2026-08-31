@@ -56,7 +56,7 @@ function ZoomableImage({ src, alt, sx = {} }) {
             justifyContent: "center",
           }}
         >
-          <ZoomInIcon sx={{ color: "common.white", fontSize: 20 }} />
+          <ZoomInIcon sx={{ color: "common.white", fontSize: "1.25rem" }} />
         </Box>
       </Box>
 

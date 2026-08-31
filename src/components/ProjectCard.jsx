@@ -86,6 +86,7 @@ function ProjectCard({ project }) {
             variant="text"
             color="primary"
             endIcon={<ArrowForwardIcon fontSize="small" />}
+            aria-label={`Consulter le projet ${project.title}`}
             sx={{ alignSelf: "flex-start" }}
           >
             Consulter le projet

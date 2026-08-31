@@ -72,7 +72,7 @@ function Navbar() {
           [`@media (min-width: ${SIDEBAR_SAFE_BREAKPOINT})`]: { mb: 2 },
         }}
       >
-        <Box component="img" src={logo} alt="Logo Marion représentant un chat avec une fleur de cériser sur la tête" sx={{ width: 52, height: 52 }} />
+        <Box component="img" src={logo} alt="" sx={{ width: 52, height: 52 }} />
       </Box>
 
       <Stack

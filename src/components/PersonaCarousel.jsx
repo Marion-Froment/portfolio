@@ -18,7 +18,12 @@ function PersonaCarousel({ personas }) {
 
   return (
     <Box>
-      <Box sx={{ position: "relative", borderRadius: radius.xs, overflow: "hidden" }}>
+      <Box
+        role="group"
+        aria-label={`Persona ${activeStep + 1} sur ${maxSteps}`}
+        aria-live="polite"
+        sx={{ position: "relative", borderRadius: radius.xs, overflow: "hidden" }}
+      >
         <Box
           component="img"
           src={personas[activeStep].image}
