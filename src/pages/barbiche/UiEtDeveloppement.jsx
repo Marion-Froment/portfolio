@@ -41,7 +41,7 @@ function UiEtDeveloppement() {
           <Stack spacing={2.5} sx={{ flex: 1 }}>
             {breakpoints.map((bp) => (
               <Stack key={bp.label} spacing={0.5}>
-                <Typography sx={{ fontWeight: 700, textTransform: "uppercase", fontSize: "0.875rem" }}>
+                <Typography sx={{ fontWeight: 700, fontSize: "0.875rem" }}>
                   {bp.label}
                 </Typography>
                 <Typography sx={{ fontSize: "0.8125rem" }}>{bp.description}</Typography>
