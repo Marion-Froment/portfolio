@@ -90,7 +90,7 @@ function ContenuEtPrint() {
   return (
     <Stack spacing={4}>
       <ShowcaseCard
-        title={`Le Plan de Lancement : Campagne "L'appel de la forêt"`}
+        title={`Le plan de lancement : campagne "L'appel de la forêt"`}
         description="Pour le lancement de l'Huile à Barbe « Mousse de Chêne », j'ai articulé la campagne de 3 semaines autour du slogan « Le secret d'une barbe que l'on n'oublie pas »."
       >
         <SpecList items={marketingMix} dividers />

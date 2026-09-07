@@ -59,39 +59,39 @@ const typographySpecs = [
 const logoSteps = [
   {
     number: 1,
-    title: "Étape 1 : Les Fondations",
-    subtitle: "Création des Formes de Base",
+    title: "Étape 1 : les fondations",
+    subtitle: "Création des formes de base",
     description: "Démarrage avec des formes rondes (cercles) pour définir les volumes de la moustache et du bouc, garantissant un équilibre visuel.",
     icons: [step1Frame, step1Circles],
   },
   {
     number: 2,
-    title: "Étape 2 : La Géométrie",
-    subtitle: "Vectorisation et Transformation",
+    title: "Étape 2 : la géométrie",
+    subtitle: "Vectorisation et transformation",
     description: "Passage par l'outil pour transformer les tracés en objets manipulables. Fusion des formes de base à l'aide de l'outil Concepteur de forme.",
     icons: [step2Icon],
   },
   {
     number: 3,
-    title: "Étape 3 : La Précision",
-    subtitle: "Miroir, Duplication et Lissage",
+    title: "Étape 3 : la précision",
+    subtitle: "Miroir, duplication et lissage",
     description: "Affinement des courbes par la manipulation des points d'ancrage à l'aide de l'outil Plume. Duplication de la moitié gauche avec un effet miroir pour une symétrie parfaite.",
     icons: [step3Icon],
   },
   {
     number: 4,
-    title: "Étape 4 : Résultat",
-    subtitle: "Symbole Final",
+    title: "Étape 4 : résultat",
+    subtitle: "Symbole final",
     description: "Équilibré et fluide, il est prêt à être intégré dans la charte graphique.",
     icons: [step5IconTop, step5IconBottom],
   },
 ];
 
 const loaderSteps = [
-  { number: 1, title: "État Initial", description: "Logo statique centré, complet et opaque à 100%." },
+  { number: 1, title: "État initial", description: "Logo statique centré, complet et opaque à 100%." },
   { number: 2, title: "L'extension", description: "La pointe gauche de la moustache s'étire horizontalement." },
-  { number: 3, title: "Le Rebond", description: "Inertie amortie (Easy Ease Back) de la moustache qui revient." },
-  { number: 4, title: "Le Balayage", description: "Un halo lumineux blanc traverse le logo de droite à gauche." },
+  { number: 3, title: "Le rebond", description: "Inertie amortie (Easy Ease Back) de la moustache qui revient." },
+  { number: 4, title: "Le balayage", description: "Un halo lumineux blanc traverse le logo de droite à gauche." },
   { number: 5, title: "Point d'éclat", description: "Une étoile rotative (Scale 0 to 120%) brille puis s'estompe." },
 ];
 
