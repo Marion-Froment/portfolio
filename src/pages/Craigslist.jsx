@@ -19,8 +19,8 @@ import mainMockup from "../assets/images/craiglist mockup.svg";
 const meta = [
   { label: "Mon rôle", value: "UX - UI designer" },
   { label: "Timeline", value: "2 semaines" },
-  { label: "Secteur", value: "Plateforme de Petites Annonces C2C" },
-  { label: "Outils & Livrables", value: "Figma, Architecture de l'Information, Maquettes Low-Fi & Hi-Fi" },
+  { label: "Secteur", value: "Plateforme de petites annonces C2C" },
+  { label: "Outils & livrables", value: "Figma, architecture de l'information, maquettes Low-Fi & Hi-Fi" },
 ];
 
 const tabs = [

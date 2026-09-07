@@ -28,7 +28,7 @@ const tabs = [
   { label: "Recherche et cadrage", Panel: RechercheEtCadrage },
   { label: "Identité et naming", Panel: IdentiteEtNaming },
   { label: "Contenu et print", Panel: ContenuEtPrint },
-  { label: "Ui et développement", Panel: UiEtDeveloppement },
+  { label: "UI et développement", Panel: UiEtDeveloppement },
 ];
 
 function Barbiche() {

@@ -22,7 +22,7 @@ const meta = [
   { label: "Mon rôle", value: "UX researcher & UI designer" },
   { label: "Timeline", value: "À préciser" },
   { label: "Secteur", value: "Application mobile de cuisine" },
-  { label: "Outils & Livrables", value: "Figma, Entretiens utilisateurs, Prototype Hi-Fi" },
+  { label: "Outils & livrables", value: "Figma, entretiens utilisateurs, prototype Hi-Fi" },
 ];
 
 const tabs = [

@@ -39,7 +39,7 @@ const colorPalette = [
 
 const typographySpecs = [
   {
-    label: "Typographie Principale",
+    label: "Typographie principale",
     fontName: "Urbanist",
     description: "Police sans-serif contemporaine aux formes rondes, choisie pour une lisibilité optimale (WCAG AAA) et réduire la fatigue visuelle.",
     specimen: "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\n0123456789",
@@ -48,7 +48,7 @@ const typographySpecs = [
     backgroundColor: "secondary.light",
   },
   {
-    label: "Typographie Logotype",
+    label: "Typographie logotype",
     fontName: "Copperplate Gothic",
     description: "Police forte, brute et intemporelle évoquant le savoir-faire des barbiers et des artisans d'époque.",
     specimenImage: copperplateSpecimen,
