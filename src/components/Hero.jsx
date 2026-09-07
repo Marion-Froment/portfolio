@@ -5,7 +5,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 
 // Assets locaux
-import heroBackground from "../assets/images/Design sans titre 2.webp";
+import heroBackground from "../assets/images/hero-background.webp";
 
 function Hero() {
   return (
@@ -35,36 +35,9 @@ function Hero() {
           objectFit: "cover",
         }}
       />
-      <Box
-        sx={{
-          position: "absolute",
-          inset: 0,
-          background: "linear-gradient(180deg, rgba(21,32,18,0.6) 0%, rgba(21,32,18,0.55) 50%, rgba(21,32,18,0.65) 100%)",
-        }}
-      />
-      <Box sx={{ position: "relative", color: "common.white", textAlign: "left" }}>
-        <Typography
-          component="p"
-          sx={{
-            fontFamily: "Gloock, serif",
-            fontSize: { xs: "1.5rem", md: "2.5rem" },
-            textShadow: "0px 2px 12px rgba(21,32,18,0.6)",
-          }}
-        >
-          Product Designer
-        </Typography>
-        <Typography
-          id="hero-heading"
-          variant="h1"
-          sx={{
-            fontSize: { xs: "4rem", md: "12rem" },
-            lineHeight: 1,
-            textShadow: "0px 4px 24px rgba(21,32,18,0.6)",
-          }}
-        >
-          Portfolio
-        </Typography>
-      </Box>
+      <Typography id="hero-heading" component="h1" sx={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0 0 0 0)" }}>
+        Portfolio 2026, Product Designer
+      </Typography>
     </Box>
   );
 }
