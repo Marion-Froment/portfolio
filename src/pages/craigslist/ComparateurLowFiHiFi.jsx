@@ -28,7 +28,7 @@ const views = {
   },
   hifi: {
     label: "Maquette Hi-Fi",
-    title: "Le Design Haute Fidélité finalisé",
+    title: "Le design haute fidélité finalisé",
     description: [
       "L'en-tête s'habille du logo violet premium avec un accès ordonné aux 5 catégories phares. La bannière jaune stimule instantanément le dépôt d'annonces.",
       `Les catégories ("Vente immobilière", "Voitures", "Ameublement", etc.) et les articles "À la une" prennent vie grâce à des images d'illustration soignées, des prix contrastés et des micro-indications de localisation.`,

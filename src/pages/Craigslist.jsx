@@ -35,7 +35,7 @@ function Craigslist() {
       idPrefix="craigslist"
       breadcrumbLabel="Craigslist"
       chipLabel="Refonte UI & architecture de l'information"
-      title="Craigslist : Dompter la surcharge cognitive par l'utilisabilité"
+      title="Craigslist : dompter la surcharge cognitive par l'utilisabilité"
       intro="Comment dompter la surcharge cognitive sur un site de petites annonces historique ? Voici la refonte visuelle et structurelle complète d'une interface ultra-dense pour en faire une expérience moderne, fluide et accessible."
       meta={meta}
       tabs={tabs}

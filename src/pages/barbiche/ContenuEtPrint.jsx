@@ -126,7 +126,7 @@ function ContenuEtPrint() {
       </ShowcaseCard>
 
       <ShowcaseCard
-        title="Gabarit Technique d'Impression (Packaging)"
+        title="Gabarit technique d'impression (packaging)"
         description="Pour la fabrication de l'étui cartonné de l'huile, j'ai conçu et livré à l'imprimeur un fichier vectoriel prêt à l'emploi, respectant les contraintes techniques suivantes :"
       >
         <Stack direction={{ xs: "column", md: "row" }} spacing={4}>

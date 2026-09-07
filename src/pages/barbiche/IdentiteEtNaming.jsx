@@ -107,7 +107,7 @@ function IdentiteEtNaming() {
     <Stack spacing={4}>
       <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ alignItems: "stretch" }}>
         <ShowcaseCard
-          title="Positionnement & Naming"
+          title="Positionnement & naming"
           description="Barbiche : Un nom de marque proche, accessible et complice, choisi pour sa proximité et sa capacité à briser les barrières techniques de la cosmétique. Le nom de domaine Barbiche.fr a été retenu pour asseoir l'origine locale (Made in France) des soins et stimuler la confiance."
           sx={{ flex: 1 }}
         >

@@ -62,7 +62,7 @@ function RechercheEtCadrage() {
   return (
     <Stack spacing={4}>
       <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ alignItems: "flex-start" }}>
-        <ShowcaseCard title="Le Concept & L'analyse Marché" sx={{ flex: 1 }}>
+        <ShowcaseCard title="Le concept & l'analyse marché" sx={{ flex: 1 }}>
           <Typography>
             Le projet Barbiche est né d'un constat clair : la cosmétique masculine reste
             sous-exploitée en ligne. Fortement inspirée de mon expérience de plus de 10 ans dans
@@ -119,7 +119,7 @@ function RechercheEtCadrage() {
         </ShowcaseCard>
       </Stack>
 
-      <ShowcaseCard title="Recherche Utilisateur : Analyse Quantitative (17 Répondants)">
+      <ShowcaseCard title="Recherche utilisateur : analyse quantitative (17 répondants)">
         <Stack direction={{ xs: "column", sm: "row" }} spacing={3}>
           {stats.map((stat) => (
             <Box
@@ -145,7 +145,7 @@ function RechercheEtCadrage() {
 
       <Stack spacing={3}>
         <Typography variant="h2" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" } }}>
-          Les 3 Niveaux d'Expertise Personas
+          Les 3 niveaux d'expertise personas
         </Typography>
         <PersonaCarousel personas={personas} />
       </Stack>

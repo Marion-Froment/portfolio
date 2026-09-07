@@ -36,7 +36,7 @@ const breakpoints = [
 function UiEtDeveloppement() {
   return (
     <Stack spacing={4}>
-      <ShowcaseCard title="Les Gabarits Responsive & Breakpoints (Grille de Mise en Page)">
+      <ShowcaseCard title="Les gabarits responsive & breakpoints (grille de mise en page)">
         <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ alignItems: "center" }}>
           <Stack spacing={2.5} sx={{ flex: 1 }}>
             {breakpoints.map((bp) => (
@@ -58,7 +58,7 @@ function UiEtDeveloppement() {
 
       <Stack direction={{ xs: "column", md: "row" }} spacing={4}>
         <ShowcaseCard
-          title="Design Tokens Sémantiques"
+          title="Design tokens sémantiques"
           description="Les variables sémantiques permettent de basculer instantanément d'un mode à l'autre tout en préservant le respect des contrastes d'accessibilité numérique."
           sx={{ flex: 1 }}
         >
@@ -69,7 +69,7 @@ function UiEtDeveloppement() {
           />
         </ShowcaseCard>
 
-        <ShowcaseCard title="Validation des Ratios de Contraste (WCAG AAA)" sx={{ flex: 1 }}>
+        <ShowcaseCard title="Validation des ratios de contraste (WCAG AAA)" sx={{ flex: 1 }}>
           <Stack spacing={2}>
             <ZoomableImage
               src={lighthouseMobile}
@@ -90,7 +90,7 @@ function UiEtDeveloppement() {
         </ShowcaseCard>
       </Stack>
 
-      <ShowcaseCard title="L'Architecture CMS & Dynamisation du Catalogue (Webflow)">
+      <ShowcaseCard title="L'architecture CMS & dynamisation du catalogue (Webflow)">
         <Typography>
           Afin de garantir un site 100 % administrable et évolutif pour la marque, j'ai configuré
           une structure relationnelle solide reliant les bases de données dynamiques de Webflow :

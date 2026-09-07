@@ -20,7 +20,7 @@ function IdentiteEtPalette() {
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 4, md: 7 }} sx={{ alignItems: "flex-start" }}>
       <Stack spacing={3} sx={{ flex: 1, py: 3 }}>
         <Typography variant="h2" sx={{ fontSize: { xs: "1.25rem", md: "1.5rem" } }}>
-          Une D.A. Inspirée de l'Héritage Craigslist
+          Une D.A. inspirée de l'héritage Craigslist
         </Typography>
         <Typography>
           Afin de ne pas perturber les millions d'utilisateurs habituels tout en attirant une

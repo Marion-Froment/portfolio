@@ -39,7 +39,7 @@ function Yumly() {
       idPrefix="yumly"
       breadcrumbLabel="Yumly"
       chipLabel="UX research & design thinking"
-      title="Yumly : Cuisiner sainement malgré un budget et un temps limités"
+      title="Yumly : cuisiner sainement malgré un budget et un temps limités"
       intro="Comment aider les étudiant·es et jeunes actif·ves à cuisiner sainement malgré un budget et un temps limités ? Découvrez une méthodologie UX complète et structurée autour des 5 piliers du Design Thinking."
       meta={meta}
       tabs={tabs}
